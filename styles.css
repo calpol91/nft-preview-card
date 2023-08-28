@@ -7,7 +7,6 @@ body {
     background-color: #0D192C;
     color: #fff;
     height: 100vh;
-
 }
 
 .container {
@@ -24,7 +23,6 @@ body {
 .imgcon {
     height: 302px;
     margin-top: 20px;
-    
     height: 302px;
     position: relative;
     display: flex;
@@ -54,16 +52,13 @@ body {
     pointer-events: none;
     z-index: 3;
     transition: 1s;
-}   
+}
 
 .imgcon:hover .eqimg {
     opacity: 0.5;
     z-index: 2;
     transition: 1s;
-    
 }
-
-
 
 .greytxt {
     color: #8bacd9;
@@ -73,10 +68,9 @@ body {
     color: #fff;
 }
 
-
-
 .sale {
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     color: #fff;
     width: 100%;
@@ -91,19 +85,18 @@ body {
 
 .salep {
     display: flex;
+    align-items: center;
 }
 
 #eth {
     color: #00FFF8;
 }
 
-
 hr {
     background-color: #2E405A;
     height: 1px;
     border-color: #2E405A;
 }
-
 
 .by>img {
     width: 33px;
@@ -119,12 +112,12 @@ hr {
 #cb {
     color: #8BACD9;
 }
+
 .jw {
     color: #fff;
 }
 
-.jw:hover 
-{
+.jw:hover {
     color: #00FFF8;
 }
 
@@ -132,4 +125,6 @@ hr {
     color: #fff;
 }
 
-
+.attribution {
+    margin-top: 50px;
+}
