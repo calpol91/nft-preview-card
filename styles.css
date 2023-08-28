@@ -72,7 +72,7 @@ body {
 
 }
 
-.component>h3 {
+.component h3 {
     color: #fff;
     font-size: 1.5em;
 }
@@ -96,6 +96,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    
 
 }
 
@@ -127,7 +128,7 @@ hr {
 }
 
 .jw {
-    color: #fff;
+    color: #fff;;
 }
 
 .jw:hover {
@@ -139,5 +140,5 @@ hr {
 }
 
 .attribution {
-    margin-top: 10px;
+    padding-top: 2px;
 }
