@@ -65,8 +65,16 @@ body {
     justify-content: end;
 }
 
+.tag {
+    font-size: 1.1em;
+    font-weight: 100;
+    font-stretch: expanded;
+
+}
+
 .component>h3 {
     color: #fff;
+    font-size: 1.5em;
 }
 
 .sale {
@@ -87,7 +95,7 @@ body {
 .salep {
     display: flex;
     align-items: center;
-    width:100%;
+    width: 100%;
 
 }
 
