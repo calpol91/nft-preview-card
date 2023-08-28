@@ -62,6 +62,7 @@ body {
 
 .greytxt {
     color: #8bacd9;
+    justify-content: end;
 }
 
 .component>h3 {
@@ -86,6 +87,8 @@ body {
 .salep {
     display: flex;
     align-items: center;
+    width:100%;
+
 }
 
 #eth {
